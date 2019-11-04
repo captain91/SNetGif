@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SNetGif"
-  spec.version      = "0.0.10"
+  spec.version      = "0.0.11"
   spec.summary      = "I am summary."
 
   # This description is used to generate tags and improve search results.
@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.vendored_frameworks  = "Frameworks/SNetGif.framework"
+  spec.vendored_frameworks  = "Frameworks/SNetGif.framework", "Frameworks/LinkDeep.framework"
   spec.frameworks = "JavaScriptCore", "MediaPlayer", "OpenAL"
 
   # spec.library   = "iconv"
