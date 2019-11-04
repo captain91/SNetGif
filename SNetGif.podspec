@@ -120,7 +120,7 @@ Pod::Spec.new do |spec|
   spec.frameworks = "JavaScriptCore.framework", "MediaPlayer.framework", "OpenAL.framework"
 
   # spec.library   = "iconv"
-  spec.libraries = "libc++", "libiconv", "libicucore", "libresolv", "libsqlite3", "libz"
+  spec.libraries = "c++", "iconv", "icucore", "resolv", "sqlite3", "z"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
