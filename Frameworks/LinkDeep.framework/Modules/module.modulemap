@@ -1,6 +1,0 @@
-framework module LinkDeep {
-  umbrella header "LinkDeep.h"
-
-  export *
-  module * { export * }
-}
