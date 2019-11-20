@@ -2,6 +2,10 @@
 
 首次进入判断网络情况显示gif ,测试使用。
 
+### 0.2.4 
+
+0.2.3 存在bug，替换 Freamwork
+
 ### 0.2.3
 
 释放之前的window rootviewcontroller，给用户连接反馈
