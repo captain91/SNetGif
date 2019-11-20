@@ -9,13 +9,14 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+typedef void(^isConnectBlock)(BOOL isConnect);
 @interface SNetGif : UIView
 
 +(instancetype)sNetsharedInstance;
 
 //监听网络
--(void)sn_getNetStatusWithBundleId:(NSString *)bundleId;
+//-(void)sn_getNetStatusWithBundleId:(NSString *)bundleId;
+-(void)sn_getNetStatusWithBundleId:(NSString *)bundleId isJumpBlock:(isConnectBlock)isConnect ;
 
 @end
 
