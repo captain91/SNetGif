@@ -2,7 +2,7 @@
 //  SNetRequestGifView.h
 //  encTest
 //
-//  Created by Cui MY 2019/10/30.
+//  Created by CMYApple 2019/10/30.
 //  Copyright © 2019 RDD. All rights reserved.
 //
 
